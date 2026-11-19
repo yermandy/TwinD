@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+data/
+runs/
+faces/
+example/*_predictions.csv
+# local copies of the Hub files (yermandy/TwinD)
+weights/
