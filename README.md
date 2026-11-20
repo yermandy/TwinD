@@ -1,5 +1,6 @@
 # TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis
 
+[![arXiv](https://img.shields.io/badge/arXiv-2611.25935-B31B1B?logo=arxiv)](https://arxiv.org/abs/2611.25935)
 [![Model on Hugging Face](https://img.shields.io/badge/Model-TwinD-FFD21E?logo=huggingface)](https://huggingface.co/yermandy/TwinD)
 [![Dataset on Hugging Face](https://img.shields.io/badge/Dataset-TwinD-FFD21E?logo=huggingface)](https://huggingface.co/datasets/yermandy/TwinD)
 
@@ -149,3 +150,14 @@ The code is released under the [MIT License](LICENSE). Other parts keep the term
 - `example/`: frames of Celeb-DF-v2 and DF26 test videos, under the terms of these datasets.
 - The training set ([yermandy/TwinD](https://huggingface.co/datasets/yermandy/TwinD)): the terms of FaceForensics++
   and Casual Conversations v2.
+
+## Citation
+
+```bibtex
+@article{TwinD,
+  title={{TwinD}: Generalizing Deepfake Detection from Blending to Entire Face Synthesis},
+  author={Andrii Yermakov and Jan Cech and Mario Fritz and Jiri Matas},
+  journal={arXiv preprint arXiv:2611.25935},
+  year={2026},
+}
+```
